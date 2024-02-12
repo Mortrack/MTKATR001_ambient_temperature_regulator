@@ -1,0 +1,4 @@
+../Core/Src/firmware_update_config.c:398:27:page_erase	9
+../Core/Src/firmware_update_config.c:138:20:firmware_update_configurations_init	15
+../Core/Src/firmware_update_config.c:215:20:firmware_update_configurations_read	2
+../Core/Src/firmware_update_config.c:229:20:firmware_update_configurations_write	16

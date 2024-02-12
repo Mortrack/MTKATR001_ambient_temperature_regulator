@@ -1,0 +1,12 @@
+../Core/Src/5641as_display_driver.c:578:13:turn_off_all_5641as_display_terminals	8	static
+../Core/Src/5641as_display_driver.c:540:13:show_custom_display_output	48	static
+../Core/Src/5641as_display_driver.c:167:6:init_5641as_display_module	4	static
+../Core/Src/5641as_display_driver.c:185:6:start_5641as_display_module	0	static
+../Core/Src/5641as_display_driver.c:190:6:stop_5641as_display_module	0	static
+../Core/Src/5641as_display_driver.c:195:6:get_5641as_display_output	0	static
+../Core/Src/5641as_display_driver.c:200:23:set_5641as_display_output	4	static
+../Core/Src/5641as_display_driver.c:277:10:get_display_on_time_steps	0	static
+../Core/Src/5641as_display_driver.c:282:6:set_display_on_time_steps	0	static
+../Core/Src/5641as_display_driver.c:287:10:get_display_off_time_steps	0	static
+../Core/Src/5641as_display_driver.c:292:6:set_display_off_time_steps	0	static
+../Core/Src/5641as_display_driver.c:319:6:HAL_TIM_PeriodElapsedCallback	32	static

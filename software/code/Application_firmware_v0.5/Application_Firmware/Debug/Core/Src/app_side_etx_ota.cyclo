@@ -1,0 +1,7 @@
+../Core/Src/app_side_etx_ota.c:1136:23:etx_ota_send_resp.isra	3
+../Core/Src/app_side_etx_ota.c:441:16:init_firmware_update_module	12
+../Core/Src/app_side_etx_ota.c:602:6:start_etx_ota	1
+../Core/Src/app_side_etx_ota.c:608:6:stop_etx_ota	1
+../Core/Src/app_side_etx_ota.c:1196:28:etx_ota_pre_transaction_handler	1
+../Core/Src/app_side_etx_ota.c:1204:28:etx_ota_status_resp_handler	2
+../Core/Src/app_side_etx_ota.c:629:6:HAL_UART_RxCpltCallback	70

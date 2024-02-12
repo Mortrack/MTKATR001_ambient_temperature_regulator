@@ -1,0 +1,3 @@
+../Core/Src/bl_side_etx_ota.c:1141:23:etx_ota_send_resp.isra	3
+../Core/Src/bl_side_etx_ota.c:415:16:init_firmware_update_module	12
+../Core/Src/bl_side_etx_ota.c:566:16:firmware_image_download_and_install	88

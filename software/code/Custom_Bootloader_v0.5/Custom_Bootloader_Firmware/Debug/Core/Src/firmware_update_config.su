@@ -1,0 +1,4 @@
+../Core/Src/firmware_update_config.c:398:27:page_erase	40	static
+../Core/Src/firmware_update_config.c:138:20:firmware_update_configurations_init	24	static
+../Core/Src/firmware_update_config.c:215:20:firmware_update_configurations_read	8	static
+../Core/Src/firmware_update_config.c:229:20:firmware_update_configurations_write	56	static
