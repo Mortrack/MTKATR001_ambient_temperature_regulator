@@ -1,4 +1,4 @@
-00:27:48 **** Build of configuration Debug for project Application_Firmware ****
+00:59:18 **** Build of configuration Debug for project Application_Firmware ****
 make -j12 all 
 arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O3 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o"
 arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O3 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.o"
@@ -34,9 +34,9 @@ Finished building target: Application_Firmware.elf
 arm-none-eabi-size   Application_Firmware.elf 
 arm-none-eabi-objdump -h -S  Application_Firmware.elf  > "Application_Firmware.list"
 arm-none-eabi-objcopy  -O ihex  Application_Firmware.elf  "Application_Firmware.hex"
-arm-none-eabi-objcopy  -O binary  Application_Firmware.elf  "Application_Firmware.bin"
    text	   data	    bss	    dec	    hex	filename
-  25520	     36	   4152	  29708	   740c	Application_Firmware.elf
+  25552	     36	   4152	  29740	   742c	Application_Firmware.elf
+arm-none-eabi-objcopy  -O binary  Application_Firmware.elf  "Application_Firmware.bin"
 Finished building: default.size.stdout
  
 Finished building: Application_Firmware.hex

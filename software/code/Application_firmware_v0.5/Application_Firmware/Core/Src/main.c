@@ -460,14 +460,14 @@ int main(void)
       /* Validate whether the Hot Water Temperature Sensor is currently under a short-circuit or not. */
       if (HAL_GPIO_ReadPin(Hot_Water_Shortcircuit_Indicator_GPIO_Input_GPIO_Port, Hot_Water_Shortcircuit_Indicator_GPIO_Input_Pin) == GPIO_PIN_RESET)
       {
-    	  convert_number_to_ASCII(MTKATR001_HOT_WATER_TEMP_IS_UNDER_SHORTCIRCUIT, ascii_error_code);
-          ascii_error_code[3] = 0;
-		  display_output[0] = 'E';
-		  display_output[1] = 'r';
-		  display_output[2] = 'r';
-		  display_output[3] = '=';
 		  while (1)
 		  {
+			  convert_number_to_ASCII(MTKATR001_HOT_WATER_TEMP_IS_UNDER_SHORTCIRCUIT, ascii_error_code);
+			  ascii_error_code[3] = 0;
+			  display_output[0] = 'E';
+			  display_output[1] = 'r';
+			  display_output[2] = 'r';
+			  display_output[3] = '=';
 			  set_5641as_display_output(display_output);
 			  HAL_Delay(2000);
 			  set_5641as_display_output(ascii_error_code);
@@ -477,14 +477,14 @@ int main(void)
       /* Validate whether the Cold Water Temperature Sensor is currently under a short-circuit or not. */
       else if (HAL_GPIO_ReadPin(Cold_Water_Shortcircuit_Indicator_GPIO_Input_GPIO_Port, Cold_Water_Shortcircuit_Indicator_GPIO_Input_Pin) == GPIO_PIN_RESET)
       {
-    	  convert_number_to_ASCII(MTKATR001_COLD_WATER_TEMP_IS_UNDER_SHORTCIRCUIT, ascii_error_code);
-          ascii_error_code[3] = 0;
-		  display_output[0] = 'E';
-		  display_output[1] = 'r';
-		  display_output[2] = 'r';
-		  display_output[3] = '=';
 		  while (1)
 		  {
+			  convert_number_to_ASCII(MTKATR001_COLD_WATER_TEMP_IS_UNDER_SHORTCIRCUIT, ascii_error_code);
+			  ascii_error_code[3] = 0;
+			  display_output[0] = 'E';
+			  display_output[1] = 'r';
+			  display_output[2] = 'r';
+			  display_output[3] = '=';
 			  set_5641as_display_output(display_output);
 			  HAL_Delay(2000);
 			  set_5641as_display_output(ascii_error_code);
@@ -1370,14 +1370,14 @@ static void custom_firmware_update_config_init()
     #if ETX_OTA_VERBOSE
         printf("ERROR: The Firmware Update Configurations sub-module could not be initialized. Our MCU/MPU will halt!.\r\n");
     #endif
-    convert_number_to_ASCII(MTKATR001_EC_INIT_FW_UPDT_CONF_MODULE_ERR, ascii_error_code);
-    ascii_error_code[3] = 0;
-    display_output[0] = 'E';
-    display_output[1] = 'r';
-    display_output[2] = 'r';
-    display_output[3] = '=';
     while (1)
     {
+    	convert_number_to_ASCII(MTKATR001_EC_INIT_FW_UPDT_CONF_MODULE_ERR, ascii_error_code);
+		ascii_error_code[3] = 0;
+		display_output[0] = 'E';
+		display_output[1] = 'r';
+		display_output[2] = 'r';
+		display_output[3] = '=';
         set_5641as_display_output(display_output);
         HAL_Delay(2000);
         set_5641as_display_output(ascii_error_code);
@@ -1402,14 +1402,14 @@ static void custom_init_etx_ota_protocol_module(ETX_OTA_hw_Protocol hw_protocol,
         #if ETX_OTA_VERBOSE
             printf("ERROR: The ETX OTA Firmware Update Module could not be initialized. Our MCU/MPU will halt!.\r\n");
         #endif
-        convert_number_to_ASCII(MTKATR001_EC_INIT_ETX_OTA_MODULE_ERR, ascii_error_code);
-        ascii_error_code[3] = 0;
-        display_output[0] = 'E';
-        display_output[1] = 'r';
-        display_output[2] = 'r';
-        display_output[3] = '=';
         while (1)
         {
+        	convert_number_to_ASCII(MTKATR001_EC_INIT_ETX_OTA_MODULE_ERR, ascii_error_code);
+			ascii_error_code[3] = 0;
+			display_output[0] = 'E';
+			display_output[1] = 'r';
+			display_output[2] = 'r';
+			display_output[3] = '=';
             set_5641as_display_output(display_output);
             HAL_Delay(2000);
             set_5641as_display_output(ascii_error_code);
@@ -1431,14 +1431,14 @@ static void validate_application_firmware()
         #if ETX_OTA_VERBOSE
             printf("ERROR: No Application Firmware has been identified to be installed in our MCU/MPU.\r\n");
         #endif
-        convert_number_to_ASCII(MTKATR001_APPLICATION_FIRMWARE_VALIDATION_ERR, ascii_error_code);
-        ascii_error_code[3] = 0;
-        display_output[0] = 'E';
-        display_output[1] = 'r';
-        display_output[2] = 'r';
-        display_output[3] = '=';
         while (1)
         {
+        	convert_number_to_ASCII(MTKATR001_APPLICATION_FIRMWARE_VALIDATION_ERR, ascii_error_code);
+			ascii_error_code[3] = 0;
+			display_output[0] = 'E';
+			display_output[1] = 'r';
+			display_output[2] = 'r';
+			display_output[3] = '=';
             set_5641as_display_output(display_output);
             HAL_Delay(2000);
             set_5641as_display_output(ascii_error_code);
@@ -1451,14 +1451,14 @@ static void validate_application_firmware()
         #if ETX_OTA_VERBOSE
             printf("ERROR: The recorded 32-bit CRC of the installed Application Firmware has no value in it.\r\n");
         #endif
-        convert_number_to_ASCII(MTKATR001_APPLICATION_FIRMWARE_VALIDATION_ERR, ascii_error_code);
-        ascii_error_code[3] = 0;
-        display_output[0] = 'E';
-        display_output[1] = 'r';
-        display_output[2] = 'r';
-        display_output[3] = '=';
         while (1)
         {
+        	convert_number_to_ASCII(MTKATR001_APPLICATION_FIRMWARE_VALIDATION_ERR, ascii_error_code);
+			ascii_error_code[3] = 0;
+			display_output[0] = 'E';
+			display_output[1] = 'r';
+			display_output[2] = 'r';
+			display_output[3] = '=';
             set_5641as_display_output(display_output);
             HAL_Delay(2000);
             set_5641as_display_output(ascii_error_code);
@@ -1475,14 +1475,14 @@ static void validate_application_firmware()
             printf("ERROR: The recorded 32-bit CRC of the installed Application Firmware Image mismatches with the calculated one: [Calculated CRC = 0x%08X] [Recorded CRC = 0x%08X]\r\n",
                     (unsigned int) cal_crc, (unsigned int) fw_config.App_fw_rec_crc);
         #endif
-        convert_number_to_ASCII(MTKATR001_APPLICATION_FIRMWARE_VALIDATION_ERR, ascii_error_code);
-        ascii_error_code[3] = 0;
-        display_output[0] = 'E';
-        display_output[1] = 'r';
-        display_output[2] = 'r';
-        display_output[3] = '=';
         while (1)
         {
+        	convert_number_to_ASCII(MTKATR001_APPLICATION_FIRMWARE_VALIDATION_ERR, ascii_error_code);
+			ascii_error_code[3] = 0;
+			display_output[0] = 'E';
+			display_output[1] = 'r';
+			display_output[2] = 'r';
+			display_output[3] = '=';
             set_5641as_display_output(display_output);
             HAL_Delay(2000);
             set_5641as_display_output(ascii_error_code);
@@ -1519,14 +1519,14 @@ static void update_current_cold_water_temperature(void)
 	ret = get_adc_output(&hadc1, ADC_CHANNEL_0, &current_cold_water_temperature);
 	if (ret != HAL_OK)
 	{
-		convert_number_to_ASCII(MTKATR001_COLD_WATER_TEMP_ADC_ERR, ascii_error_code);
-        ascii_error_code[3] = 0;
-		display_output[0] = 'E';
-		display_output[1] = 'r';
-		display_output[2] = 'r';
-		display_output[3] = '=';
 		while (1)
 		{
+			convert_number_to_ASCII(MTKATR001_COLD_WATER_TEMP_ADC_ERR, ascii_error_code);
+			ascii_error_code[3] = 0;
+			display_output[0] = 'E';
+			display_output[1] = 'r';
+			display_output[2] = 'r';
+			display_output[3] = '=';
 			set_5641as_display_output(display_output);
 			HAL_Delay(2000);
 			set_5641as_display_output(ascii_error_code);
@@ -1545,14 +1545,14 @@ static void update_current_hot_water_temperature(void)
 	ret = get_adc_output(&hadc1, ADC_CHANNEL_1, &current_hot_water_temperature);
 	if (ret != HAL_OK)
 	{
-		convert_number_to_ASCII(MTKATR001_HOT_WATER_TEMP_ADC_ERR, ascii_error_code);
-        ascii_error_code[3] = 0;
-		display_output[0] = 'E';
-		display_output[1] = 'r';
-		display_output[2] = 'r';
-		display_output[3] = '=';
 		while (1)
 		{
+			convert_number_to_ASCII(MTKATR001_HOT_WATER_TEMP_ADC_ERR, ascii_error_code);
+			ascii_error_code[3] = 0;
+			display_output[0] = 'E';
+			display_output[1] = 'r';
+			display_output[2] = 'r';
+			display_output[3] = '=';
 			set_5641as_display_output(display_output);
 			HAL_Delay(2000);
 			set_5641as_display_output(ascii_error_code);
@@ -1571,14 +1571,14 @@ static void update_current_internal_ambient_temperature(void)
 	ret = get_adc_output(&hadc1, ADC_CHANNEL_4, &current_internal_ambient_temperature);
 	if (ret != HAL_OK)
 	{
-		convert_number_to_ASCII(MTKATR001_INTERNAL_AMBIENT_TEMP_ADC_ERR, ascii_error_code);
-        ascii_error_code[3] = 0;
-		display_output[0] = 'E';
-		display_output[1] = 'r';
-		display_output[2] = 'r';
-		display_output[3] = '=';
 		while (1)
 		{
+			convert_number_to_ASCII(MTKATR001_INTERNAL_AMBIENT_TEMP_ADC_ERR, ascii_error_code);
+			ascii_error_code[3] = 0;
+			display_output[0] = 'E';
+			display_output[1] = 'r';
+			display_output[2] = 'r';
+			display_output[3] = '=';
 			set_5641as_display_output(display_output);
 			HAL_Delay(2000);
 			set_5641as_display_output(ascii_error_code);
@@ -1722,14 +1722,14 @@ void etx_ota_status_resp_handler(ETX_OTA_Status resp)
             #if ETX_OTA_VERBOSE
                 printf("ERROR: Exception Code received %d is not recognized. Our MCU/MPU will halt!.\r\n", resp);
             #endif
-            convert_number_to_ASCII(MTKATR001_EC_ERR, ascii_error_code);
-            ascii_error_code[3] = 0;
-            display_output[0] = 'E';
-            display_output[1] = 'r';
-            display_output[2] = 'r';
-            display_output[3] = '=';
             while (1)
             {
+            	convert_number_to_ASCII(MTKATR001_EC_ERR, ascii_error_code);
+				ascii_error_code[3] = 0;
+				display_output[0] = 'E';
+				display_output[1] = 'r';
+				display_output[2] = 'r';
+				display_output[3] = '=';
                 set_5641as_display_output(display_output);
                 HAL_Delay(2000);
                 set_5641as_display_output(ascii_error_code);

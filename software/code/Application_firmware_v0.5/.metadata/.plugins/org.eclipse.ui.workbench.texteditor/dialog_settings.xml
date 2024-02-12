@@ -6,8 +6,9 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="HAL_FLASH_Unlock"/>
+		<item key="selection" value="(1)"/>
 		<list key="findhistory">
+			<item value="(1)"/>
 			<item value="HAL_FLASH_Unlock"/>
 			<item value="TIM_Output_Compare_and_PWM_modes"/>
 			<item value="custom_init_etx_ota_protocol_module"/>
@@ -22,7 +23,6 @@
 			<item value="HAL_uart_rx_flush"/>
 			<item value="HAL_ret_handler"/>
 			<item value="A Name Response from the HM-10 Clone BLE Device was expected, but something else was received instead"/>
-			<item value="but something else was received instead"/>
 		</list>
 		<list key="replacehistory">
 			<item value="custom_init_etx_ota_protocol_module"/>

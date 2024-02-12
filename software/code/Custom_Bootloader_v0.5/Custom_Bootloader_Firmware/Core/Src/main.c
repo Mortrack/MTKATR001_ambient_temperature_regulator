@@ -486,14 +486,14 @@ int main(void)
 				#if ETX_OTA_VERBOSE
 					printf("ERROR: Exception Code received %d is not recognized. Our MCU/MPU will halt!.\r\n", ret);
                 #endif
-                convert_number_to_ASCII(MTKATR001_EC_ERR, ascii_error_code);
-                ascii_error_code[3] = 0;
-                display_output[0] = 'E';
-                display_output[1] = 'r';
-                display_output[2] = 'r';
-                display_output[3] = '=';
                 while (1)
                 {
+                	convert_number_to_ASCII(MTKATR001_EC_ERR, ascii_error_code);
+					ascii_error_code[3] = 0;
+					display_output[0] = 'E';
+					display_output[1] = 'r';
+					display_output[2] = 'r';
+					display_output[3] = '=';
                     set_5641as_display_output(display_output);
                     HAL_Delay(2000);
                     set_5641as_display_output(ascii_error_code);
@@ -1109,14 +1109,14 @@ static void custom_firmware_update_config_init(void)
         printf("ERROR: The Firmware Update Configurations sub-module could not be initialized. Our MCU/MPU will halt!.\r\n");
     #endif
 
-    convert_number_to_ASCII(MTKATR001_EC_INIT_FW_UPDT_CONF_MODULE_ERR, ascii_error_code);
-    ascii_error_code[3] = 0;
-    display_output[0] = 'E';
-    display_output[1] = 'r';
-    display_output[2] = 'r';
-    display_output[3] = '=';
     while (1)
     {
+    	convert_number_to_ASCII(MTKATR001_EC_INIT_FW_UPDT_CONF_MODULE_ERR, ascii_error_code);
+		ascii_error_code[3] = 0;
+		display_output[0] = 'E';
+		display_output[1] = 'r';
+		display_output[2] = 'r';
+		display_output[3] = '=';
         set_5641as_display_output(display_output);
         HAL_Delay(2000);
         set_5641as_display_output(ascii_error_code);
@@ -1142,14 +1142,14 @@ static void custom_init_etx_ota_protocol_module(ETX_OTA_hw_Protocol hw_protocol,
             printf("ERROR: The ETX OTA Firmware Update Module could not be initialized. Our MCU/MPU will halt!.\r\n");
         #endif
 
-        convert_number_to_ASCII(MTKATR001_EC_INIT_ETX_OTA_MODULE_ERR, ascii_error_code);
-        ascii_error_code[3] = 0;
-        display_output[0] = 'E';
-        display_output[1] = 'r';
-        display_output[2] = 'r';
-        display_output[3] = '=';
         while (1)
         {
+        	convert_number_to_ASCII(MTKATR001_EC_INIT_ETX_OTA_MODULE_ERR, ascii_error_code);
+			ascii_error_code[3] = 0;
+			display_output[0] = 'E';
+			display_output[1] = 'r';
+			display_output[2] = 'r';
+			display_output[3] = '=';
             set_5641as_display_output(display_output);
             HAL_Delay(2000);
             set_5641as_display_output(ascii_error_code);
@@ -1179,14 +1179,14 @@ static void validate_bootloader_firmware(void)
                 printf("ERROR: The Bootloader Firmware currently installed in our MCU/MPU is corrupted. Our MCU/MPU will halt!.\r\n");
             #endif
 
-            convert_number_to_ASCII(MTKATR001_BOOTLOADER_FIRMWARE_VALIDATION_ERR, ascii_error_code);
-            ascii_error_code[3] = 0;
-            display_output[0] = 'E';
-            display_output[1] = 'r';
-            display_output[2] = 'r';
-            display_output[3] = '=';
             while (1)
             {
+            	convert_number_to_ASCII(MTKATR001_BOOTLOADER_FIRMWARE_VALIDATION_ERR, ascii_error_code);
+				ascii_error_code[3] = 0;
+				display_output[0] = 'E';
+				display_output[1] = 'r';
+				display_output[2] = 'r';
+				display_output[3] = '=';
                 set_5641as_display_output(display_output);
                 HAL_Delay(2000);
                 set_5641as_display_output(ascii_error_code);
