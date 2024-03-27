@@ -15,9 +15,6 @@ var searchData=
   ['get_5fhm10_5fpin_5fcode_5fmode_12',['get_hm10_pin_code_mode',['../dd/d6e/group__hm10__ble.html#ga27b7aa6af1b8b4b12248c2167679f095',1,'hm10_ble_driver.c']]],
   ['get_5fhm10_5frole_13',['get_hm10_role',['../dd/d6e/group__hm10__ble.html#ga554fd3ad2efe6e24c1ed4b66d85895c1',1,'hm10_ble_driver.c']]],
   ['gpio_5fis_5fhm10_5fdefault_5fsettings_14',['GPIO_is_hm10_default_settings',['../d3/dab/group__main.html#ga078a3abaad09cd25cc49921bb926e4ab',1,'main.c']]],
-  ['gpio_5fis_5fhm10_5fdefault_5fsettings_5fpin_15',['GPIO_is_hm10_default_settings_Pin',['../d3/dab/group__main.html#ga7a929513ed85bf8b6a636218f5e0fade',1,'main.c']]],
-  ['gpio_5fis_5fhm10_5fdefault_5fsettings_5fport_16',['GPIO_is_hm10_default_settings_Port',['../d3/dab/group__main.html#gae56ed3f67cf0aa7b36af259ba6d59a64',1,'main.c']]],
-  ['gpio_5fmcu_5fled1_5fpin_17',['GPIO_MCU_LED1_Pin',['../d3/dab/group__main.html#ga5790efbdeeb252c0c2eea75abcedfadb',1,'main.c']]],
-  ['gpio_5fpin_18',['GPIO_Pin',['../dd/db4/struct_h_m10___g_p_i_o__def__t.html#ad66a323e02c0cdfeefb9a2a766b1f40e',1,'HM10_GPIO_def_t::GPIO_Pin'],['../d1/d9c/struct_display__5641_a_s___g_p_i_o__def__t.html#a54d7f52d3553cc2914237797fe64b28f',1,'Display_5641AS_GPIO_def_t::GPIO_Pin']]],
-  ['gpio_5fport_19',['GPIO_Port',['../dd/db4/struct_h_m10___g_p_i_o__def__t.html#a02fb039f1080c85c379d3dbaa59e804b',1,'HM10_GPIO_def_t::GPIO_Port'],['../d1/d9c/struct_display__5641_a_s___g_p_i_o__def__t.html#ad0f1ed8aa3fb82ec1e2af89405b6e594',1,'Display_5641AS_GPIO_def_t::GPIO_Port']]]
+  ['gpio_5fpin_15',['GPIO_Pin',['../dd/db4/struct_h_m10___g_p_i_o__def__t.html#ad66a323e02c0cdfeefb9a2a766b1f40e',1,'HM10_GPIO_def_t::GPIO_Pin'],['../d1/d9c/struct_display__5641_a_s___g_p_i_o__def__t.html#a54d7f52d3553cc2914237797fe64b28f',1,'Display_5641AS_GPIO_def_t::GPIO_Pin']]],
+  ['gpio_5fport_16',['GPIO_Port',['../dd/db4/struct_h_m10___g_p_i_o__def__t.html#a02fb039f1080c85c379d3dbaa59e804b',1,'HM10_GPIO_def_t::GPIO_Port'],['../d1/d9c/struct_display__5641_a_s___g_p_i_o__def__t.html#ad0f1ed8aa3fb82ec1e2af89405b6e594',1,'Display_5641AS_GPIO_def_t::GPIO_Port']]]
 ];

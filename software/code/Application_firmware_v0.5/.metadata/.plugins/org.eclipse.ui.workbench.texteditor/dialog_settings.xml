@@ -6,8 +6,13 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="(1)"/>
+		<item key="selection" value="ADC_BITS_IN_DECIMAL_VALUE"/>
 		<list key="findhistory">
+			<item value="ADC_BITS_IN_DECIMAL_VALUE"/>
+			<item value="get_adc_output"/>
+			<item value="current_internal_ambient_temperature"/>
+			<item value="Show_current_firmware_version_GPIO_Input"/>
+			<item value="Show_cold_fan_duty_cycle_GPIO_Input"/>
 			<item value="(1)"/>
 			<item value="HAL_FLASH_Unlock"/>
 			<item value="TIM_Output_Compare_and_PWM_modes"/>
@@ -18,11 +23,6 @@
 			<item value=":&lt;/b&gt;"/>
 			<item value="HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_RESET);"/>
 			<item value="TIM_CHANNEL_1"/>
-			<item value="TODO:"/>
-			<item value="ETX_OTA_EC_ERR"/>
-			<item value="HAL_uart_rx_flush"/>
-			<item value="HAL_ret_handler"/>
-			<item value="A Name Response from the HM-10 Clone BLE Device was expected, but something else was received instead"/>
 		</list>
 		<list key="replacehistory">
 			<item value="custom_init_etx_ota_protocol_module"/>

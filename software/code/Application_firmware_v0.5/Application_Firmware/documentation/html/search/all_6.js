@@ -3,7 +3,7 @@ var searchData=
   ['e_0',['E',['../da/d45/struct_display__5641_a_s__peripherals__def__t.html#ab9200d82a16a231d28756a6f3ba783dc',1,'Display_5641AS_peripherals_def_t']]],
   ['enable_5fapp_5fetx_5fota_5fconfig_1',['ENABLE_APP_ETX_OTA_CONFIG',['../df/dea/group__default__etx__ota__settings.html#ga5622a7705e8691a326c2d89534b8038c',1,'etx_ota_config.h']]],
   ['eof_2',['eof',['../d8/d25/struct_e_t_x___o_t_a___command___packet__t.html#a2fdb048e3351e46de4c83a665890082b',1,'ETX_OTA_Command_Packet_t::eof'],['../d7/dd7/struct_e_t_x___o_t_a___header___packet__t.html#ab26364d87597bb1a6363cb3afac53e3e',1,'ETX_OTA_Header_Packet_t::eof'],['../de/dae/struct_e_t_x___o_t_a___response___packet__t.html#a41afbf2c6c09620ec4d61d97f4936bb5',1,'ETX_OTA_Response_Packet_t::eof']]],
-  ['error_5fhandler_3',['Error_Handler',['../d3/dab/group__main.html#ga1730ffe1e560465665eb47d9264826f9',1,'Error_Handler(void):&#160;main.c'],['../d3/dab/group__main.html#ga1730ffe1e560465665eb47d9264826f9',1,'Error_Handler(void):&#160;main.c']]],
+  ['error_5fhandler_3',['Error_Handler',['../d3/dab/group__main.html#ga1730ffe1e560465665eb47d9264826f9',1,'main.c']]],
   ['etx_20ota_20protocol_20configuration_20files_4',['ETX OTA Protocol Configuration Files',['../db/d3d/group__main__etx__ota__config.html',1,'']]],
   ['etx_20ota_20protocol_20module_5',['ETX OTA Protocol module',['../db/d97/group__app__side__etx__ota.html',1,'']]],
   ['etx_5fbl_5fflash_5faddr_6',['ETX_BL_FLASH_ADDR',['../d4/d56/group__app__etx__ota__config.html#ga97608ce6dccdee0c508843b8860d7b2f',1,'app_etx_ota_config.h']]],

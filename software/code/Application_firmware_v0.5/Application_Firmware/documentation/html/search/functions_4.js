@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['error_5fhandler_0',['Error_Handler',['../d3/dab/group__main.html#ga1730ffe1e560465665eb47d9264826f9',1,'Error_Handler(void):&#160;main.c'],['../d3/dab/group__main.html#ga1730ffe1e560465665eb47d9264826f9',1,'Error_Handler(void):&#160;main.c']]],
+  ['error_5fhandler_0',['Error_Handler',['../d3/dab/group__main.html#ga1730ffe1e560465665eb47d9264826f9',1,'main.c']]],
   ['etx_5fota_5fpre_5ftransaction_5fhandler_1',['etx_ota_pre_transaction_handler',['../db/d97/group__app__side__etx__ota.html#ga6a9fcf714238f0d7d6389f53ca3d7582',1,'etx_ota_pre_transaction_handler():&#160;app_side_etx_ota.c'],['../d3/dab/group__main.html#ga6a9fcf714238f0d7d6389f53ca3d7582',1,'etx_ota_pre_transaction_handler():&#160;main.c']]],
   ['etx_5fota_5fprocess_5fdata_2',['etx_ota_process_data',['../db/d97/group__app__side__etx__ota.html#ga525b5a3f54281b670592bf72d0588497',1,'app_side_etx_ota.c']]],
   ['etx_5fota_5freceive_5fpacket_3',['etx_ota_receive_packet',['../db/d97/group__app__side__etx__ota.html#gafa379547a53d63743861209a49fc9f01',1,'app_side_etx_ota.c']]],

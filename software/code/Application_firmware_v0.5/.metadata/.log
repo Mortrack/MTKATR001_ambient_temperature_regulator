@@ -5007,3 +5007,28 @@ java.net.UnknownHostException: download.eclipse.org
 	at org.eclipse.ecf.provider.filetransfer.httpclient5.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:251)
 	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2024-03-25 17:33:14.620 -----------------------------------------------
+eclipse.buildId=Version 1.13.1
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  C:\MTKATR001_ambient_temperature_regulator\software\code\Application_firmware_v0.5\Application_Firmware\.cproject
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\MTKATR001_ambient_temperature_regulator\software\code\Application_firmware_v0.5\Application_Firmware\.cproject
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-03-25 17:34:12.950
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-03-25 17:34:12.957
+!MESSAGE Log4j2 initialized with config file C:\MTKATR001_ambient_temperature_regulator\software\code\Application_firmware_v0.5\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-03-25 17:34:23.424
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-03-25 17:34:29.243
+!MESSAGE Indexed 'Application_Firmware' (27 sources, 125 headers) in 4.76 sec: 11,020 declarations; 61,458 references; 2 unresolved inclusions; 36 syntax errors; 188 unresolved names (0.26%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-03-25 17:44:15.538
+!MESSAGE Indexed 'Application_Firmware' (27 sources, 125 headers) in 4.44 sec: 11,020 declarations; 61,441 references; 2 unresolved inclusions; 36 syntax errors; 188 unresolved names (0.26%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-03-26 15:52:10.927
+!MESSAGE Indexed 'Application_Firmware' (27 sources, 125 headers) in 3.81 sec: 11,020 declarations; 61,457 references; 2 unresolved inclusions; 36 syntax errors; 188 unresolved names (0.26%)

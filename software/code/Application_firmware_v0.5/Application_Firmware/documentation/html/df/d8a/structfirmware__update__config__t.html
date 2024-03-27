@@ -108,7 +108,7 @@ For more details on the total size of all the designated Flash Memory pages of t
 <dd>
 The <code>aligned(4)</code> attribute is used here because this struct must be a multiple of 4 bytes (i.e., 32-bits), since that is the configured TypeProgram with which our MCU/MPU's Flash Memory was configured with (see write_data_to_flash_app and FLASH_TYPEPROGRAM_WORD ). However, it is best if you set all the fields of this <a class="el" href="../../df/d8a/structfirmware__update__config__t.html">firmware_update_config_t</a> struct to types of 4-bytes instead of having the <code>aligned(4)</code> attribute for filling the required size of this struct. The reason for this is because that attribute will not initialize all those additional bytes to zeros or ones, and will set them to random values instead, which means that this could change the CRC32 calculation each time you write a new data block (note that as long as the CRC for each data block is correctly calculated, then that should not affect the functionality of this sub-module, but will have more difficult data to follow/read). </dd></dl>
 </div><hr/>The documentation for this struct was generated from the following file:<ul>
-<li>C:/Users/cmira/OneDrive/Escritorio/GitHub/MTKATR001_ambient_temperature_regulator/software/code/Application_firmware_v0.5/Application_Firmware/Core/Src/firmware_update_config.c</li>
+<li>C:/MTKATR001_ambient_temperature_regulator/software/code/Application_firmware_v0.5/Application_Firmware/Core/Src/firmware_update_config.c</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

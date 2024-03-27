@@ -66,8 +66,8 @@ all: main-build
 main-build: Application_Firmware.elf secondary-outputs
 
 # Tool invocations
-Application_Firmware.elf Application_Firmware.map: $(OBJS) $(USER_OBJS) C:\Users\cmira\OneDrive\Escritorio\GitHub\MTKATR001_ambient_temperature_regulator\software\code\Application_firmware_v0.5\Application_Firmware\STM32F103C8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "Application_Firmware.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"C:\Users\cmira\OneDrive\Escritorio\GitHub\MTKATR001_ambient_temperature_regulator\software\code\Application_firmware_v0.5\Application_Firmware\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Application_Firmware.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Application_Firmware.elf Application_Firmware.map: $(OBJS) $(USER_OBJS) C:\MTKATR001_ambient_temperature_regulator\software\code\Application_firmware_v0.5\Application_Firmware\STM32F103C8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "Application_Firmware.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"C:\MTKATR001_ambient_temperature_regulator\software\code\Application_firmware_v0.5\Application_Firmware\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Application_Firmware.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
