@@ -1,0 +1,8 @@
+../Core/Src/main.c:1074:12:convert_number_to_ASCII.constprop.isra	16	static
+../Core/Src/main.c:1467:13:update_current_cold_water_temperature	40	static
+../Core/Src/main.c:1493:13:update_current_hot_water_temperature	40	static
+../Core/Src/main.c:667:6:SystemClock_Config	96	static,ignoring_inline_asm
+../Core/Src/main.c:343:5:main	96	static,ignoring_inline_asm
+../Core/Src/main.c:1553:6:etx_ota_pre_transaction_handler	0	static
+../Core/Src/main.c:1609:6:etx_ota_status_resp_handler	24	static
+../Core/Src/main.c:1737:6:Error_Handler	0	static,ignoring_inline_asm
