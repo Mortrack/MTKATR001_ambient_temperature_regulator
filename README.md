@@ -89,9 +89,9 @@ The following will describe the general purpose of the folders that are located 
 
 ### MTKATR001 Device regulating its Internal Ambient Temperature at 25 Celsius Degrees
 
-![](case_design/videos_and_photos_of_results/video_device_regulating_at_25_celcius_degrees.mp4)
+![](https://github.com/Mortrack/MTKATR001_ambient_temperature_regulator/blob/main/case_design/videos_and_photos_of_results/video_device_regulating_at_25_celcius_degrees.mp4)
 
-<video src=case_design/videos_and_photos_of_results/video_device_regulating_at_25_celcius_degrees.mp4 width=180/></video>
+<video src=https://github.com/Mortrack/MTKATR001_ambient_temperature_regulator/blob/main/case_design/videos_and_photos_of_results/video_device_regulating_at_25_celcius_degrees.mp4 width=180/></video>
 
 ### MTKATR001 Device receiving an ETX OTA Custom Data Transaction
 
