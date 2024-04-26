@@ -1,6 +1,6 @@
 # MTKATR001 Ambient Temperature Regulator Device
 
-Version: X.X.X.X
+Version: 1.0.0.0
 
 This repository contains the all the project files of an Ambient Temperature Regulator System made by César Miranda Meza
 that he named as MTKATR001. The main goal of this project was to make a "Proof of Concept Application" of the Protocol
