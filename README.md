@@ -85,18 +85,6 @@ The following will describe the general purpose of the folders that are located 
 - **/software**:
     - This folder provides the Flowchart Diagram of the actual application code that lies inside the Application Firmware of the MTKATR001 Device, and it also contains all the code used in the MTKATR001 project along with its corresponding documentation.
 
-## Videos taken of the MTKATR001 device
-
-### MTKATR001 Device regulating its Internal Ambient Temperature at 25 Celsius Degrees
-
-![](https://github.com/Mortrack/MTKATR001_ambient_temperature_regulator/blob/main/case_design/videos_and_photos_of_results/video_device_regulating_at_25_celcius_degrees.mp4)
-
-<video src=https://github.com/Mortrack/MTKATR001_ambient_temperature_regulator/blob/main/case_design/videos_and_photos_of_results/video_device_regulating_at_25_celcius_degrees.mp4 width=180/></video>
-
-### MTKATR001 Device receiving an ETX OTA Custom Data Transaction
-
-### MTKATR001 Device receiving an Application Firmware Update
-
 ## Future additions planned for this library
 
 Although I cannot commit to do the following soon, at some point if this project is useful for other people, then I plan
